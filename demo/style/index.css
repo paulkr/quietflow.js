@@ -1,0 +1,101 @@
+/*
+index.css
+© 2015 Paul Krishnamurthy
+*/
+
+@font-face {
+	font-family: RobotoLight;
+	src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family: RobotoThin;
+	src: url("../fonts/Roboto-Thin.ttf");
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+#container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#main {
+	min-width: 500px;
+	width: 30vw;
+	min-height: 580px;
+	height: 40vh;
+	z-index: -1;
+	background-color: rgba(255, 255, 255, .7);
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	-webkit-box-shadow: 0 0 5px 2px #fff;
+	-moz-box-shadow: 0 0 5px 2px #fff;
+	box-shadow: 0 0 5px 2px #fff;
+}
+
+#main .title {
+	font-family: RobotoLight;
+	font-size: 40px;
+	text-align: center;
+	color: #000;
+	padding-top: 15px;
+}
+
+#main .js {
+	font-size: 50px;
+}
+
+#main .descrip {
+	font-family: RobotoThin;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #000;
+}
+
+.codePreview {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#effects {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 180px;
+	height: 50px;
+	font-family: RobotoLight;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	margin-top: 30px;
+	opacity: .7;
+	border-radius: 5px;
+}
+
+option {
+	font-family: RobotoLight;
+	background-color: #F1F1F1;
+	margin-top: 3px;
+}
+
+option:hover {
+	background-color: #000;
+}
+
+/*::selection {
+  background-color: rgba(0, 0, 0, .1);
+}
+::-moz-selection {
+  background-color: rgba(0, 0, 0, .1);
+}*/
