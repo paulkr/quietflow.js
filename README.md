@@ -247,5 +247,3 @@ Conclusion
 ----------
 
 If you have any effect ideas you would like me to implement, let me know or even better, feel free to contribute to the project!
-
-www.PaulKr.com
