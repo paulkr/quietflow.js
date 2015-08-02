@@ -38,11 +38,11 @@ Attributes
 
 ###Default
 
-####`theme`
+#####`theme`
 
 The effect you would like to use. The default is set to `"starfield"`.
 
-####`z_Index`
+#####`z_Index`
 
 The z-index of the canvas object. The default is set to `-1000`.
 
@@ -61,179 +61,179 @@ Themes
 
 ###starfield
 
-####`starColor`
+#####`starColor`
 
 The color of the stars. Default is set to `white`.
 
-####`starSize`
+#####`starSize`
 
 The maximum random speed that can be assigned to each star. Default is set to `3`.
 
-####`speed`
+#####`speed`
 
 Animation speed. Default is set to `100`.
 
 
 ###squareFlash
 
-####`squareSize`
+#####`squareSize`
 
 The side length of each square. The default is set to `10`.
 
-####`maxRed`, `maxGreen`, `maxBlue`
+#####`maxRed`, `maxGreen`, `maxBlue`
 
 These attributes specify the maximum value for red, green or blue respectively that can randomly be assigned to each square. The default sets each at `255` (100% random).
 
-####`speed`
+#####`speed`
 
 The speed of the animation where new sqaures are generated (in milliseconds). Default is set to `100`.
 
 
 ###vortex
 
-####`mainRadius`
+#####`mainRadius`
 
 The large circle's radius. Default is set to `20`.
 
-####`miniRadii`
+#####`miniRadii`
 
 The radius of each circle contained within the large one. Default is set to `30`.
 
-####`backgroundCol`
+#####`backgroundCol`
 
 The background color. Default is set to `"#01FAFC"`.
 
-####`circleCol`
+#####`circleCol`
 
 The color of the circle. Default is set to `"#6F6F6F"`.
 
-####`speed`
+#####`speed`
 
 Speed of the circle movement. Default is set to `10`.
 
 
 ###bouncingBalls
 
-####`specificColors`
+#####`specificColors`
 
 This attribute is if you do not want the circle colors to be assigned randomly. It takes a list of colors as the argument. Default is set to empty (random colors to be used instead).
 
-####`backgroundCol`
+#####`backgroundCol`
 
 The background color. Default is set to `"#D6D6D6"`.
 
-####`maxRadius`
+#####`maxRadius`
 
 The maximum random radius a circle can be assigned. Default is set to `40`.
 
-####`bounceSpeed`
+#####`bounceSpeed`
 
 Speed of the circle movement. Default is set to `50`.
 
-####`bounceBallCount`
+#####`bounceBallCount`
 
 Number of circles. Default is set to `50`.
 
-####`transparent`
+#####`transparent`
 
 Boolean to make circles have 50% opacity. Default is set to `true`.
 
 
 ###shootingLines
 
-####`backgroundCol`
+#####`backgroundCol`
 
 The background color. Default is set to `black`.
 
-####`lineColor`
+#####`lineColor`
 
 Color of the lines. Default is set to `white`.
 
-####`lineGlow`
+#####`lineGlow`
 
 The color of the glow around a line. Default is set to `white`.
 
-####`lines`
+#####`lines`
 
 Number of lines. Default is set to `50`.
 
-####`speed`
+#####`speed`
 
 The flashing speed. Default is set to `150`.
 
 
 ###simpleGradient
 
-####`primary`
+#####`primary`
 
 The starting color. Default is set to `"#D4145A"`.
 
-####`accent`
+#####`accent`
 
 The finishing color. Default is set to `"#FBB03B"`.
 
 
 ###layeredTriangles
 
-####`specificColors`
+#####`specificColors`
 
 This attribute is if you do not want the circle colors to be assigned randomly. It takes a list of colors as the argument. Default is set to empty (random colors to be used instead).
 
-####`backgroundCol`
+#####`backgroundCol`
 
 The background color. Default is set to `"#D6D6D6"`.
 
-####`triangles`
+#####`triangles`
 
 Number of triangles. Default is set to `50`.
 
-####`transparent`
+#####`transparent`
 
 Boolean to make triangles have 50% opacity. Default is set to `true`.
 
 
 ###cornerSpikes
 
-####`specificColors`
+#####`specificColors`
 
 This attribute is if you do not want the circle colors to be assigned randomly. It takes a list of colors as the argument. Default is set to empty (random colors to be used instead).
 
-####`backgroundCol`
+#####`backgroundCol`
 
 The background color. Default is set to `black`.
 
-####`lineColor`
+#####`lineColor`
 
 Color of the lines. Default is set to `white`.
 
-####`lineGlow`
+#####`lineGlow`
 
 The color of the glow around a line. Default is set to `white`.
 
-####`speed`
+#####`speed`
 
 The flashing speed. Default is set to `100`.
 
 
 ###floatingBoxes
 
-####`specificColors`
+#####`specificColors`
 
 This attribute is if you do not want the circle colors to be assigned randomly. It takes a list of colors as the argument. Default is set to empty (random colors to be used instead).
 
-####`backgroundCol`
+#####`backgroundCol`
 
 The background color. Default is set to `"#D6D6D6"`.
 
-####`boxCount`
+#####`boxCount`
 
 Number of boxes. Default is set to `400`.
 
-####`maxBoxSize`
+#####`maxBoxSize`
 
 The maximum random side length that a box can be assigned. Default is set to `80`.
 
-####`transparent`
+#####`transparent`
 
 Boolean to make boxes have 50% opacity. Default is set to `true`.
 
