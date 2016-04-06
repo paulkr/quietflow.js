@@ -12,7 +12,7 @@ Usage
 Include a reference to the latest version of jQuery.
 
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 ```
 
 Include a reference to `quietflow.js`.
@@ -42,7 +42,7 @@ Attributes
 
 The effect you would like to use. The default is set to `"starfield"`.
 
-#####`z_Index`
+#####`z_index`
 
 The z-index of the canvas object. The default is set to `-1000`.
 
@@ -51,7 +51,7 @@ The z-index of the canvas object. The default is set to `-1000`.
 ```javascript
 $("body").quietflow({
 	theme : "starfield",
-	z_Index : -1
+	z_index : -1
 })
 ```
 
@@ -101,11 +101,11 @@ The radius of each circle contained within the large one. Default is set to `30`
 
 #####`backgroundCol`
 
-The background color. Default is set to `"#01FAFC"`.
+The background color. Default is set to `"#3498DB"`.
 
 #####`circleCol`
 
-The color of the circle. Default is set to `"#6F6F6F"`.
+The color of the circle. Default is set to `"#34495E"`.
 
 #####`speed`
 
@@ -120,7 +120,7 @@ This attribute is if you do not want the circle colors to be assigned randomly. 
 
 #####`backgroundCol`
 
-The background color. Default is set to `"#D6D6D6"`.
+The background color. Default is set to `"#ECF0F1"`.
 
 #####`maxRadius`
 
@@ -200,11 +200,11 @@ This attribute is if you do not want the circle colors to be assigned randomly. 
 
 #####`backgroundCol`
 
-The background color. Default is set to `black`.
+The background color. Default is set to `white`.
 
 #####`lineColor`
 
-Color of the lines. Default is set to `white`.
+Color of the lines. Default is set to `black`.
 
 #####`lineGlow`
 
@@ -236,6 +236,10 @@ The maximum random side length that a box can be assigned. Default is set to `80
 #####`transparent`
 
 Boolean to make boxes have 50% opacity. Default is set to `true`.
+
+#####`speed`
+
+Speed to move boxes. Default set to `100`.
 
 
 ###Note

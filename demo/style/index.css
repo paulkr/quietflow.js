@@ -1,101 +1,69 @@
-/*
-index.css
-© 2015 Paul Krishnamurthy
-*/
+/**
+ * index.css
+ * Paul Krishnamurthy 2016
+ */
 
-@font-face {
-	font-family: RobotoLight;
-	src: url("../fonts/Roboto-Light.ttf");
-}
-
-@font-face {
-	font-family: RobotoThin;
-	src: url("../fonts/Roboto-Thin.ttf");
-}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
 
 html, body {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	overflow: hidden;
+  width    : 100%;
+  height   : 100%;
+  margin   : 0;
+  overflow : hidden;
 }
 
-#container {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+.center {
+  display      : block;
+  margin-left  : auto;
+  margin-right : auto;
 }
 
-#main {
-	min-width: 500px;
-	width: 30vw;
-	min-height: 580px;
-	height: 40vh;
-	z-index: -1;
-	background-color: rgba(255, 255, 255, .7);
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	-webkit-box-shadow: 0 0 5px 2px #fff;
-	-moz-box-shadow: 0 0 5px 2px #fff;
-	box-shadow: 0 0 5px 2px #fff;
+#Wrapper {
+  position    : relative;
+  top         : 50%;
+  transform   : translateY(-50%);
+  font-family : "Roboto", sans-serif;
+  text-align  : center;
 }
 
-#main .title {
-	font-family: RobotoLight;
-	font-size: 40px;
-	text-align: center;
-	color: #000;
-	padding-top: 15px;
+#Box {
+  max-width          : 500px;
+  max-height         : 550px;
+  background-color   : rgba(255, 255, 255, .7);
+  margin-left        : auto;
+  margin-right       : auto;
+  padding            : 10px; 
+  left               : 0;
+  right              : 0;
+  border-radius      : 10px;
+  -webkit-box-shadow : 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -moz-box-shadow    : 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow         : 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-#main .js {
-	font-size: 50px;
+#Box h1 {
+  font-weight : 300;
+  font-size   : 40px;
 }
 
-#main .descrip {
-	font-family: RobotoThin;
-	text-align: center;
-	font-size: 30px;
-	font-weight: bolder;
-	color: #000;
+#Box h1 span { font-weight : 400; }
+
+#Box h2 {
+  font-weight : 300;
+  font-size   : 30px;
 }
 
-.codePreview {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#Box .code-preview {
+  width     : 330px;
+  font-size : 15px;
 }
 
-#effects {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 180px;
-	height: 50px;
-	font-family: RobotoLight;
-	font-size: 20px;
-	font-weight: bold;
-	outline: none;
-	margin-top: 30px;
-	opacity: .7;
-	border-radius: 5px;
+#Box .effects {
+  width         : 180px;
+  height        : 50px;
+  font-size     : 25px;
+  outline       : none;
+  margin        : 30px auto;
+  opacity       : .7;
+  border-radius : 5px;
 }
-
-option {
-	font-family: RobotoLight;
-	background-color: #F1F1F1;
-	margin-top: 3px;
-}
-
-option:hover {
-	background-color: #000;
-}
-
-/*::selection {
-  background-color: rgba(0, 0, 0, .1);
-}
-::-moz-selection {
-  background-color: rgba(0, 0, 0, .1);
-}*/
