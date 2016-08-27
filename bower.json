@@ -1,0 +1,17 @@
+{
+  "name": "quietflow",
+  "authors": [
+    "Paul Krishnamurthy <paul@paulkr.com>"
+  ],
+  "description": "A jQuery library for creating beautiful dynamic or static visual effects.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "effects",
+    "visual",
+    "dynamic",
+    "background"
+  ],
+  "license": "MIT",
+  "homepage": "http://paulkr.github.io/quietflow.js/"
+}

@@ -5,6 +5,22 @@ quietflow.js
 
 ###[Check it out!](http://paulkr.github.io/quietflow.js/)
 
+Installation
+------------
+
+You can install quietflow through npm:
+
+```bash
+$ npm install quietflow
+```
+or through bower:
+
+```bash
+$ bower install quietflow
+```
+
+Alternatively, you can download the files in the `lib/` folder manually.
+
 
 Usage
 -----
