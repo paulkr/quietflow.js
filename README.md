@@ -3,7 +3,7 @@ quietflow.js
 
 `quietflow.js` is a jQuery library for creating beautiful dynamic or static visual effects.
 
-###[Check it out!](http://paulkr.github.io/quietflow.js/)
+[Check it out!](http://paulkr.github.io/quietflow.js/)
 
 Installation
 ------------
