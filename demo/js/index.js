@@ -9,7 +9,7 @@
 $(document).ready(function () {
 
   function clearAll () {
-
+    
     var elems = [
       "squareFlash",
       "vortex",
